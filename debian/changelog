@@ -1,5 +1,74 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-digitalocean-go-qemu (0.0~git20230711.2e3d018-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream snapshot
+  * Update years in d/copyright
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 14 Jul 2023 13:24:43 +0000
+
+golang-github-digitalocean-go-qemu (0.0~git20221209.f035778-2) unstable; urgency=medium
+
+  * Adjust DH_GOLANG_EXCLUDES to fix autopkgtest failure
+
+ -- Mathias Gibbens <gibmat@debian.org>  Wed, 21 Dec 2022 11:46:31 +0000
+
+golang-github-digitalocean-go-qemu (0.0~git20221209.f035778-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * d/control:
+    - Update my email address
+    - Bump Standards-Version (no changes needed)
+    - Update Build-Depends and Depends
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 17 Dec 2022 23:25:17 +0000
+
+golang-github-digitalocean-go-qemu (0.0~git20220826.d5f5e3c-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Sun, 28 Aug 2022 17:36:22 +0000
+
+golang-github-digitalocean-go-qemu (0.0~git20220804.2002801-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * d/control:
+    - Update Standards-Version (no changes needed)
+    - Set minimum version of golang-github-digitalocean-go-libvirt
+  * Add myself to d/copyright
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Wed, 10 Aug 2022 22:51:23 +0000
+
+golang-github-digitalocean-go-qemu (0.0~git20210326.ac9e0b6-1) unstable; urgency=medium
+
+  [ Aloïs Micard ]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
+
+  [ Mathias Gibbens ]
+  * New upstream snapshot
+  * d/control:
+    - Add myself to Uploaders
+    - Update Section to golang
+    - Update Build-Depends and Depends
+    - Bump Standards-Version (no changes needed)
+    - Add Multi-Arch: foreign
+  * Update d/rules and d/upstream/metadata
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Fri, 07 Jan 2022 08:38:59 +0100
+
+golang-github-digitalocean-go-qemu (0.0~git20200529.1b453d0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 21 Aug 2021 12:09:04 +0100
+
+golang-github-digitalocean-go-qemu (0.0~git20200529.1b453d0-2) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 10 Jul 2020 22:47:11 +0800
+
+golang-github-digitalocean-go-qemu (0.0~git20200529.1b453d0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 25 Jun 2020 00:05:55 +0800
