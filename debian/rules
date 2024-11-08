@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := examples internal/qmp-gen qapi-schema/cmd
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
